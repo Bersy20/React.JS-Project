@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useState } from 'react';
 import selectors from '../Redux/selectors';
 import operations from '../Redux/operations';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../Managers/Home.css';
 import 'antd/dist/antd.css';
 import { Modal, message} from 'antd';
@@ -135,7 +136,7 @@ const WFMHome = ({}: any) => {
                                 {/* <td>{empForWfmMemberState[x].lockstatus}</td> */}
                                 <td>{empForWfmMemberState[x].profile_id}</td>
                                 <td>{empForWfmMemberState[x].experience} years</td>
-                                <td><button id='btn' onClick={() => { getEmployeeById(empForWfmMemberState[x].employee_id) }} value={empForWfmMemberState[x].employee_id}><i className="bi bi-lock"></i>View Details</button></td>
+                                <td><button id='btn' onClick={() => { getEmployeeById(empForWfmMemberState[x].employee_id) }} value={empForWfmMemberState[x].employee_id}><i className="fas fa-lock"></i>View Details</button></td>
                             </tr>
                         )
                     })}
