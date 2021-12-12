@@ -1,0 +1,68 @@
+#myTable {
+    width: 86%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img{
+    width: 14%;
+    margin-left: 6%;
+    margin-top: 25px;
+
+}
+
+th {
+    background: #203e6bde;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+}
+
+td {
+    background: #ffffff;
+    padding: 20px;
+}
+
+#btn {
+    background-color: #080970d5;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+input[type=text],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f5;
+}
+
+input[type=button],
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: large;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
+#topic{
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    font-weight: bolder;
+}
